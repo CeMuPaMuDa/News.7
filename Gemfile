@@ -8,7 +8,7 @@ gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
 gem 'falcon', '~> 0.39.2'
 gem "importmap-rails"
-gem "turbo-rails", '~> 1.0.0'
+gem "turbo-rails"
 gem "stimulus-rails"
 gem "bootsnap", require: false
 gem "sassc-rails"
