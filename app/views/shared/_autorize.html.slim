@@ -4,12 +4,12 @@ ul.nav-button
       span.nav-login_text Hello, "#{current_user.name}"
     li.nav-button_item
       = link_to 'Exit',
-        destroy_user_session_path, button_to: :delete,
+        destroy_user_session_path, method: :delete,
         class: 'nav-button_link'
-  -else
+  - else
     li.nav-button_item
-      a.nav-button_link href="#"
-        | LogIn
+      = link_to  'SignIn',
+        new_user_session_path, class: 'nav-button_link'
     li.nav-button_item
-      a.nav-button_link href="#"
-        | Registration
+      = link_to  'Registration',
+        new_user_registration_path, class: 'nav-button_link'
