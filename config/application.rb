@@ -20,7 +20,7 @@ module News7
     config.load_defaults 7.0
     config.generators.system_tests = nil
     config.i18n.available_locales = %i[en ru uk]
-    config.i18n.default_locale = :ru
+    config.i18n.default_locale = :en
     config.time_zone = 'Kyiv'
     config.generators do |g|
       g.orm              :active_record
