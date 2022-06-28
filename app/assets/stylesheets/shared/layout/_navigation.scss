@@ -1,0 +1,17 @@
+@import '../var';
+
+.nav-list {
+  @include flex_content;
+}
+
+.nav-list_item {
+  list-style-type: none;
+  margin-right   : 45px;
+}
+
+.nav-list_link {
+  text-decoration: none;
+  font-weight    : 500;
+  @include text_1822;
+  color: $very_peri;
+}

@@ -1,0 +1,31 @@
+@import '../var';
+
+.nav-button {
+  @include flex_content;
+}
+
+.nav-login_item {
+  list-style-type: none;
+  margin-right   : 2.81rem;
+  padding        : 0.625rem 0;
+}
+
+.nav-login_text {
+  font-weight: 500;
+  @include text_1822;
+  color: $very_peri;
+}
+
+
+.nav-button_item {
+  @include button_pery;
+  list-style-type: none;
+  margin-right   : 0.94rem;
+}
+
+.nav-button_link {
+  font-weight: 700;
+  @include text_1822;
+  color          : #ffffff;
+  text-decoration: none;
+}
