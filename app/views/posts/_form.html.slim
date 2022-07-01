@@ -1,12 +1,13 @@
-= bootstrap_form_with(model: @post) do |form|
-  - if @post.errors.any?
-    div style="color: red"
-      h2 = "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:"
-      ul
-        - @post.errors.each do |error|
-          li = error.full_message
+.devise
+  = bootstrap_form_with(model: @post) do |form|
+    - if @post.errors.any?
+      div style="color: red"
+        h2 = "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:"
+        ul
+          - @post.errors.each do |error|
+            li = error.full_message
 
-  = form.text_field :title
-  = form.rich_text_area :content
+    = form.text_field :title
+    = form.rich_text_area :content
 
-  = form.submit
+    = form.submit class: 'form-action-btn'
