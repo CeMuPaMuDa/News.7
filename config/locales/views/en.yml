@@ -1,0 +1,7 @@
+en:
+  shared:
+    navigation:
+      home: "Home"
+      all_publication: "All publications"
+    autorize:
+      hello: "Hello"

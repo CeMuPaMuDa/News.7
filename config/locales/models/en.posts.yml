@@ -1,0 +1,10 @@
+en:
+  activerecord:
+    models:
+      post: Post
+    attributes:
+      post:
+        title: Title
+        content: Content
+        created_at: Created at
+        updated_at: Updated at
