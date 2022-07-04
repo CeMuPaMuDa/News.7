@@ -1,0 +1,21 @@
+// colors
+$very_peri: #6667ab;
+
+
+
+//mixins
+@mixin button_pery {
+  padding      : 0.56rem 1.88rem;
+  background   : $very_peri;
+  border-radius: 0.63rem;
+}
+
+@mixin flex_content {
+  display        : flex;
+  justify-content: space-between;
+}
+
+@mixin text_1822 {
+  font-size  : 1.125rem;
+  line-height: 1.375rem;
+}

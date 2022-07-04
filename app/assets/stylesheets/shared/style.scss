@@ -1,0 +1,32 @@
+@import 'null';
+@import 'buttons';
+@import 'layout/header';
+@import 'posts/post.scss';
+@import 'devise/devise.scss';
+@import 'var';
+
+
+
+.main {
+  margin-top: 5rem;
+}
+
+.bg1 {
+  background: radial-gradient(100% 100% at 10% 86%, #F52E3B 0%, rgba(245, 46, 59, 0) 50%);
+  height    : 100vh;
+}
+
+.bg2 {
+  background: radial-gradient(100% 100% at 11% 84%, #594CF0 0%, rgba(89, 76, 240, 0) 50%);
+  height    : 100vh;
+}
+
+.bg3 {
+  background: radial-gradient(100% 100% at 89% 47%, #993DF5 0%, rgba(153, 61, 245, 0) 50%);
+  height    : 100vh;
+}
+
+.bg4 {
+  background: radial-gradient(100% 100% at 45% 93%, #932AEF 0%, rgba(147, 42, 239, 0) 50%);
+  height    : 100vh;
+}

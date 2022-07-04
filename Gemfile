@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -8,6 +10,7 @@ gem 'bootstrap_form'
 gem 'devise'
 gem 'devise-i18n'
 gem 'falcon', '~> 0.39.2'
+gem 'image_processing', '~> 1.2'
 gem 'importmap-rails'
 gem 'pg', '~> 1.1'
 gem 'rails', '~> 7.0.3'
@@ -23,5 +26,9 @@ group :development, :test do
 end
 
 group :development do
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec', require: false
   gem 'web-console'
 end

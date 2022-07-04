@@ -1,0 +1,15 @@
+@import '../var';
+@import './logo';
+@import './navigation';
+@import './autorize';
+
+.nav {
+  background: #ffffff;
+  outline   : 3px solid $very_peri;
+  filter    : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav_wrapper {
+  @include flex_content;
+  align-items: center;
+}
