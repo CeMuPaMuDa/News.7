@@ -3,12 +3,19 @@
 .btns_list {
   display        : flex;
   justify-content: start;
+  align-items    : center;
 
   .btns_item {
     list-style-type: none;
     margin-right   : 1rem;
   }
+
+  .btns_heart {
+    margin-left: auto;
+    align-self : center;
+  }
 }
+
 
 
 .btns_link {
