@@ -13,6 +13,11 @@
   .btns_heart {
     margin-left: auto;
     align-self : center;
+
+    .heart {
+      font-size: 25px;
+      color    : #fff;
+    }
   }
 }
 
@@ -26,7 +31,7 @@
   line-height    : 60px;
   font-weight    : 700;
   color          : #fff;
-  font-style     : 24px;
+  font-size      : 24px;
   text-transform : uppercase;
   text-decoration: none;
   box-sizing     : border-box;
