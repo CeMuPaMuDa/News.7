@@ -5,22 +5,5 @@ import "trix"
 import "@rails/actiontext"
 import "popper"
 import "bootstrap"
+import "./lib/like_color"
 
-const changeColorToRed = (element) => {
-  element.classList.add('heart-red');
-}
-
-const options = {
-  "capture": false,
-  "once": true,
-  "passive": false
-}
-const heartButton = window.document.querySelector('.heart')
-
-
-const redHeart = (event) => {
-  const likeIcon = event.currentTarget
-  changeColorToRed(likeIcon)
-}
-
-heartButton.addEventListener("click", redHeart)
