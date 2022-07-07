@@ -6,4 +6,3 @@ import "@rails/actiontext"
 import "popper"
 import "bootstrap"
 import "./lib/like_color"
-
