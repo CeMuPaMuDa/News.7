@@ -2,11 +2,6 @@ const changeColorToRed = (element) => {
   element.classList.add('heart-red')
 }
 
-const options = {
-  "capture": false,
-  "once": true,
-  "passive": false
-}
 const heartButton = window.document.querySelector('.heart')
 
 
