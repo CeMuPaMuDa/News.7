@@ -1,0 +1,7 @@
+ru:
+  shared:
+    navigation:
+      home: "Главная"
+      all_publication: "Все публикации"
+    autorize:
+      hello: "Привет"

@@ -1,8 +1,17 @@
 ul.nav-list
+  li.dropdown.nav-list_item
+    = link_to '#', class: 'nav-list_link px-2 dropdown-toggle text-dark',
+                   data: {"bs-toggle": 'dropdown'} do
+      = image_tag  "#{locale}.png" , class: 'flag'
+      = locale
+    ul.dropdown-menu
+      - I18n.available_locales.each do |locale|
+        li
+          - if I18n.locale != locale
+            = link_to t(locale), root_path(locale: locale),
+                                  class: 'dropdown-item nav-list_link'
   li.nav-list_item
-    = link_to  "Home", root_path, class: 'nav-list_link'
+    = link_to t('.home'), root_path, class: 'nav-list_link'
   li.nav-list_item
-    = link_to  "All news", posts_path, class: 'nav-list_link'
-  li.nav-list_item
-    a.nav-list_link href="#"
-      | About Us
+    = link_to  t('.all_publication'), posts_path, class: 'nav-list_link'
+

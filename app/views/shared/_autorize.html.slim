@@ -1,7 +1,7 @@
 ul.nav-button
   - if user_signed_in?
     li.nav-login_item
-      span.nav-login_text Hello, "#{current_user.name}"
+      span.nav-login_text #{t('hello')}, #{current_user.name}
     li.nav-button_item
       = link_to 'Exit',
         destroy_user_session_path, method: :delete,

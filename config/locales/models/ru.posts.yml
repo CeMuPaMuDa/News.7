@@ -1,0 +1,10 @@
+ru:
+  activerecord:
+    models:
+      post: Новость
+    attributes:
+      post:
+        title: Заголовок
+        content: Содержание статьи
+        created_at: Создано
+        updated_at: Изменено

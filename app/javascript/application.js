@@ -3,4 +3,7 @@ import "@hotwired/turbo-rails"
 import "controllers"
 import "trix"
 import "@rails/actiontext"
-import 'bootstrap'
+import "popper"
+import "bootstrap"
+import "./lib/like_color"
+

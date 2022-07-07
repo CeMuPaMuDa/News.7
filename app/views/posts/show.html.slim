@@ -1,12 +1,14 @@
 p style="color: green" = notice
 
-== render @post
+.post-show
+  == render @post
 
-.btns
-  ul.btns_list
-    li.btns_item
-      = link_to "Edit this post", edit_post_path(@post), class: 'btns_link'
-    li.btns_item
-      = link_to "Back to posts", posts_path, class: 'btns_link'
-
-= button_to "Destroy this post", @post, method: :delete, class: 'btn btn-secondary'
+  .btns
+    ul.btns_list
+      li.btns_item
+        = link_to "Edit this post", edit_post_path(@post), class: 'btns_link'
+      li.btns_item
+        = link_to "Back to posts", posts_path, class: 'btns_link'
+      li.btns_heart
+        = fa_icon 'heart', class: 'heart', id: 'heart'
+  = button_to "Destroy this post", @post, method: :delete, class: 'btn btn-secondary'
