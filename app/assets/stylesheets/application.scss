@@ -14,8 +14,8 @@
  *= require_self
  */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800&display=swap');
-@import 'actiontext.css';
-@import "./shared/style.scss";
+@import 'actiontext';
+@import "./shared/style";
 @import "bootstrap";
 @import "font_awesome5_webfont";
 @import "font-awesome";
@@ -30,8 +30,8 @@ body {
 
 
 .flag {
-  width       : 24px;
-  height      : 24px;
-  margin-right: 6px;
+  width       : 1.5rem /* 24/16 */;
+  height      : 1.5rem /* 24/16 */;
+  margin-right: .375rem /* 6/16 */;
   display     : inline-block;
 }

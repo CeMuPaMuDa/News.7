@@ -10,5 +10,5 @@ p style="color: green" = notice
       li.btns_item
         = link_to "Back to posts", posts_path, class: 'btns_link'
       li.btns_heart
-        = fa_icon 'heart', class: 'heart'
+        = fa_icon 'heart', class: 'heart', id: 'heart'
   = button_to "Destroy this post", @post, method: :delete, class: 'btn btn-secondary'

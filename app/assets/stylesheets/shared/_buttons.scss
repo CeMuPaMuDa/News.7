@@ -15,8 +15,11 @@
     align-self : center;
 
     .heart {
-      font-size: 25px;
+      font-size: 1.5625rem /* 25/16 */;
       color    : #fff;
+      &-red{
+        color: red;
+      }
     }
   }
 }
@@ -28,16 +31,16 @@
   transform      : translate(-50%, -50%);
   padding        : 0.56rem 1.88rem;
   text-align     : center;
-  line-height    : 60px;
+  line-height    : 3.75rem /* 60/16 */;
   font-weight    : 700;
   color          : #fff;
-  font-size      : 24px;
+  font-size      : 1.5rem /* 24/16 */;
   text-transform : uppercase;
   text-decoration: none;
   box-sizing     : border-box;
   background     : linear-gradient(90deg, #03a9f4, #F441A5, #FFEB3B, #03A9F4);
   background-size: 400%;
-  border-radius  : 30px;
+  border-radius  : 1.875rem /* 30/16 */;
   z-index        : 1;
 
   &:hover {
@@ -48,21 +51,21 @@
   &::before {
     content        : '';
     position       : absolute;
-    top            : -5px;
-    left           : -5px;
-    right          : -5px;
-    bottom         : -5px;
+    top            : -.3125rem /* 5/16 */;
+    left           : -.3125rem /* 5/16 */;
+    right          : -.3125rem /* 5/16 */;
+    bottom         : -.3125rem /* 5/16 */;
     z-index        : -1;
     background     : linear-gradient(90deg, #03a9f4, #F441A5, #FFEB3B, #03A9F4);
     background-size: 400%;
-    border-radius  : 40px;
+    border-radius  : 2.5rem /* 40/16 */;
     opacity        : 0;
     transition     : 0.5s;
 
   }
 
   &:hover::before {
-    filter   : blur(20px);
+    filter   : blur(1.25rem /* 20/16 */);
     opacity  : 1;
     animation: animate 8s linear infinite;
   }
