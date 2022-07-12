@@ -44,3 +44,8 @@ pin "resolve-pathname", to: "https://ga.jspm.io/npm:resolve-pathname@3.0.0/index
 pin "tiny-invariant", to: "https://ga.jspm.io/npm:tiny-invariant@1.2.0/dist/tiny-invariant.esm.js"
 pin "tiny-warning", to: "https://ga.jspm.io/npm:tiny-warning@1.0.3/dist/tiny-warning.esm.js"
 pin "value-equal", to: "https://ga.jspm.io/npm:value-equal@1.0.1/index.js"
+pin "@fortawesome/fontawesome-free", to: "https://ga.jspm.io/npm:@fortawesome/fontawesome-free@6.1.1/js/fontawesome.js"
+pin "@fortawesome/fontawesome-svg-core", to: "https://ga.jspm.io/npm:@fortawesome/fontawesome-svg-core@6.1.1/index.es.js"
+pin "@fortawesome/free-brands-svg-icons", to: "https://ga.jspm.io/npm:@fortawesome/free-brands-svg-icons@6.1.1/index.es.js"
+pin "@fortawesome/free-regular-svg-icons", to: "https://ga.jspm.io/npm:@fortawesome/free-regular-svg-icons@6.1.1/index.es.js"
+pin "@fortawesome/free-solid-svg-icons", to: "https://ga.jspm.io/npm:@fortawesome/free-solid-svg-icons@6.1.1/index.es.js"
