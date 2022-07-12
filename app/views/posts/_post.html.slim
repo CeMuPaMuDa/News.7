@@ -1,5 +1,5 @@
 div id="#{dom_id post}"
   p.post_title
-    = post.title
+    = link_to post.title, post
   p.post_content
     == post.content

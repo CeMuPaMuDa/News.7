@@ -5,8 +5,6 @@ h1.text-center Posts
 #posts
   - @posts.each do |post|
     == render post
-    p
-      = link_to "Show this post", post
   = paginate @posts
 
 
