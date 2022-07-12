@@ -2,9 +2,13 @@ en:
   activerecord:
     models:
       post: Post
+      user: User
     attributes:
       post:
         title: Title
         content: Content
         created_at: Created at
         updated_at: Updated at
+      user:
+        name: Name
+        email: Email

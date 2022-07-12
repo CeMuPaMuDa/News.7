@@ -2,9 +2,13 @@ ru:
   activerecord:
     models:
       post: Новость
+      user: Пользователь
     attributes:
       post:
         title: Заголовок
         content: Содержание статьи
         created_at: Создано
         updated_at: Изменено
+      user:
+        name: Имя
+

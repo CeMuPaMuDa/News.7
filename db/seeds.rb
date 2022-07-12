@@ -11,3 +11,24 @@ admin_email = 'admin@example.com'
 User.create!  email: admin_email,
               password: admin_email,
               name: 'Администратор'
+
+hash_users = Array.new(25) do
+  email = FFaker::Internet.safe_email
+  {
+    name: FFaker::Internet.user_name[0..15],
+    email: email,
+    password: email,
+  }
+end
+
+users = User.create! hash_users
+
+hash_posts = Array.new(120) do
+  {
+    title: FFaker::BaconIpsum.phrase,
+    content: FFaker::BaconIpsum.paragraphs,
+    user: users.sample
+  }
+end
+
+posts = Post.create! hash_posts

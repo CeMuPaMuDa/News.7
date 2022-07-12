@@ -8,3 +8,5 @@ uk:
         content: Зміст публікації
         created_at: Створено
         updated_at: Оновлено
+      user:
+        name: Ім'я
