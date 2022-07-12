@@ -7,5 +7,7 @@ h1.text-center Posts
     == render post
     p
       = link_to "Show this post", post
+  = paginate @posts
+
 
 = link_to "New post", new_post_path, class: 'btns_link'

@@ -30,8 +30,23 @@ body {
 
 
 .flag {
-  width       : 1.5rem /* 24/16 */;
-  height      : 1.5rem /* 24/16 */;
-  margin-right: .375rem /* 6/16 */;
-  display     : inline-block;
+  width: 1.5rem
+    /* 24/16 */
+  ;
+  height: 1.5rem
+    /* 24/16 */
+  ;
+  margin-right: .375rem
+    /* 6/16 */
+  ;
+  display: inline-block;
+}
+
+.page-link{
+  color: #9d5fdb;
+}
+
+.page-item.active .page-link{
+  background-color: #9d5fdb;
+  border-color:  #a67cd1;
 }
